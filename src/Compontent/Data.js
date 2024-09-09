@@ -1,22 +1,9 @@
 const products = [
-  {
-    Name: "Iphone",
-    shortDetail: "Iphone 15 Plus, 16 Gb/256 Gb storages",
-    rating: 4.5,
-    review: "Good but think and buy according to your use",
-  },
-  {
-    Name: "Iphone",
-    shortDetail: "Iphone 15, 16 Gb/128 Gb storages",
-    rating: 4.0,
-    review: "Good but think and buy according to your use",
-  },
-  {
-    Name: "Iphone",
-    shortDetail: "Iphone 14 Plus, 16 Gb/256 Gb storages",
-    rating: 3.9,
-    review: "Good but think and buy according to your use",
-  },
+  { name: "Samsung F14 5g", description: "A mobile under 12k bugdet with 5G features.", price: "12000" ,rating:"4.0"},
+  
+  { name: "Hp Probook", description: "This laptop can be used to the Normal Usuage", price: "16500", rating: "4.5" },
+  
+  { name: "Iphone", description: "Good for this Camera and other feature.", price: "165000", rating: "2.5" }
 ];
 
 export default products;

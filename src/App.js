@@ -1,11 +1,11 @@
-import React, { useState } from 'react'; 
-import Cards from './Compontent/Cards';
-import products from './Compontent/Data'; 
-function App() {
-  const [productList] = useState(products); 
+import React from 'react';
+import products from './compontent/Data';
+import Cards from './compontent/Cards'; 
+
+const App = () => {
   return (
     <div className="App">
-      <Cards products={productList} />
+      <Cards products={products} />
     </div>
   );
 }
